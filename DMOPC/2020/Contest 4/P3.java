@@ -13,20 +13,8 @@ public class P3 {
         return st.nextToken();
     }
 
-    static long nextLong() throws IOException {
-        return Long.parseLong(next());
-    }
-
     static int nextInt() throws IOException {
         return Integer.parseInt(next());
-    }
-
-    static double nextDouble() throws IOException {
-        return Double.parseDouble(next());
-    }
-
-    static String nextLine() throws IOException {
-        return in.readLine().trim();
     }
 
     public static void main(String[] args) throws IOException {
