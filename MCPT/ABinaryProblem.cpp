@@ -19,3 +19,4 @@ int main()
 	cout << (ctr % 2 == 1) ? 1 : 0;
 	return 0;
 }
+//this solution ACs

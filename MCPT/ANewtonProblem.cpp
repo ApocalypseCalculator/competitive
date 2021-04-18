@@ -20,3 +20,4 @@ int main() {
 	cout.precision(10);
 	cout << fixed << x;
 }
+//this solution ACs
