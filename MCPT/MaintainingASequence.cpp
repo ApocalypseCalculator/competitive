@@ -19,3 +19,4 @@ int main() {
 	cout << "NO";
 	return 0;
 }
+//This solution ACs and at the time of writing, is 2nd best solution
