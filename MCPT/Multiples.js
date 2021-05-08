@@ -1,0 +1,1 @@
+let n=Number(gets());for(let i=0;i<n;i++){let temp=(gets()+" "+gets()).split(" ").map(r=>Number(r));print((temp[0]*temp[3]==temp[1]*temp[2])?"YES":"NO")}
