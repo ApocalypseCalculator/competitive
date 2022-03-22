@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class javaFastIOTemplate {
 
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
