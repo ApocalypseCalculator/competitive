@@ -33,6 +33,7 @@ public class javaFastIOTemplate {
     static void print(String result) throws IOException {
         out.write(result.getBytes());
         out.flush();
+        return;
     }
 
     public static void main(String[] args) throws IOException {
