@@ -3,6 +3,7 @@ import java.io.*;
 
 public class javaFastIOTemplate {
 
+    static BufferedOutputStream out = new BufferedOutputStream(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
 
@@ -27,6 +28,11 @@ public class javaFastIOTemplate {
 
     static String nextLine() throws IOException {
         return in.readLine().trim();
+    }
+    
+    static void print(String result) throws IOException {
+        out.write(result.getBytes());
+        out.flush();
     }
 
     public static void main(String[] args) throws IOException {
